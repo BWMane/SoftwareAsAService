@@ -19,9 +19,16 @@
 
 h1, h2, h3 {font-family: 'Open sans', sans-serif;}
 
-body, .navbar {background: #2193b0;  /* fallback for old browsers */
+//gradient created by https://twitter.com/_ighosh at uigradients.com
+.navbar, .home-callout {background: #2193b0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
     
 .navbar {
     border:none;}
+    
+.home-callout {
+    color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 50px;}
