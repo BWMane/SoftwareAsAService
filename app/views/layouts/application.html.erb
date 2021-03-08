@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    
+
    <nav class="navbar navbar-default navbar-static-top" role="navigation">
   <div class='container'>
     <div class="navbar-header">
@@ -20,13 +20,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMatch</a>
+      
+      <!--The rails way of linking things-->
+      <%= link_to "/", class: "navbar-brand" do %>
+        <i class= "fa fa-group"></i>
+        DevMatch
+      <% end %>
+      
     </div>
     
+    <!--The rails way of linking things-->
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/about">About</a></li>
+        <li> <%= link_to "About", "/about"%> </li>
       </ul>
+      
     </div><!-- /.navbar-collapse -->
     
   </div>
