@@ -45,6 +45,21 @@ h1, h2, h3 {font-family: 'Open sans', sans-serif;}
  }
 }
 
+// Mobile friendly changes and drop down menu changes
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+    
+}
+
+
+.navbar-default .navbar-toggle{
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #6dd5ed ;
+    
+    }
+}
+
 // Home Page styles
 .home-callout {
     color: white;
